@@ -18,15 +18,19 @@ An API with Versioning that allows access and search of data for the Cats and Do
 * CatsController:
 
 GET /api/v1.0/cats
+
 Returns a list of all cats in the database.
 
 Parameters:
 
 breed: Filters the cats by breed.
+
 name: Filters the cats by name.
+
 minimumAge: Filters the cats by minimum age.
 
 GET /api/v1.0/cats/{id}
+
 Returns a cat with the specified ID.
 
 Parameters:
@@ -34,9 +38,11 @@ Parameters:
 id: The ID of the cat to retrieve.
 
 POST /api/v1.0/cats
+
 Creates a new cat in the database.
 
 PUT /api/v1.0/cats/{id}
+
 Updates a cat with the specified ID.
 
 Parameters:
@@ -44,6 +50,7 @@ Parameters:
 id: The ID of the cat to update.
 
 DELETE /api/v1.0/cats/{id}
+
 Deletes a cat with the specified ID.
 
 Parameters:
@@ -55,15 +62,19 @@ id: The ID of the cat to delete.
 * DogsController:
 
 GET /api/v1.0/dogs
+
 Returns a list of all dogs in the database.
 
 Parameters:
 
 breed: Filters the dogs by breed.
+
 name: Filters the dogs by name.
+
 minimumAge: Filters the dogs by minimum age.
 
 GET /api/v1.0/dogs/{id}
+
 Returns a dog with the specified ID.
 
 Parameters:
@@ -71,9 +82,11 @@ Parameters:
 id: The ID of the dog to retrieve.
 
 POST /api/v1.0/dogs
+
 Creates a new dog in the database.
 
 PUT /api/v1.0/dogs/{id}
+
 Updates a dog with the specified ID.
 
 Parameters:
@@ -81,6 +94,7 @@ Parameters:
 id: The ID of the dog to update.
 
 DELETE /api/v1.0/dogs/{id}
+
 Deletes a dog with the specified ID.
 
 Parameters:
