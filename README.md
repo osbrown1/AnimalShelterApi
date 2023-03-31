@@ -9,10 +9,83 @@
 * .Net 6
 * MySQL
 * Entity Framework Core 6
-* 
+ 
 
 ## Description
-An API with Versioning that lets .
+An API with Versioning that allows access and search of data for the Cats and Dogs of the Animal Shelter, such as their name, breed, and age.
+
+## The Following Endpoints are Used: 
+* CatsController:
+
+GET /api/v1.0/cats
+Returns a list of all cats in the database.
+
+Parameters:
+
+breed: Filters the cats by breed.
+name: Filters the cats by name.
+minimumAge: Filters the cats by minimum age.
+
+GET /api/v1.0/cats/{id}
+Returns a cat with the specified ID.
+
+Parameters:
+
+id: The ID of the cat to retrieve.
+
+POST /api/v1.0/cats
+Creates a new cat in the database.
+
+PUT /api/v1.0/cats/{id}
+Updates a cat with the specified ID.
+
+Parameters:
+
+id: The ID of the cat to update.
+
+DELETE /api/v1.0/cats/{id}
+Deletes a cat with the specified ID.
+
+Parameters:
+
+id: The ID of the cat to delete.
+
+//////////////////////////////////
+
+* DogsController:
+
+GET /api/v1.0/dogs
+Returns a list of all dogs in the database.
+
+Parameters:
+
+breed: Filters the dogs by breed.
+name: Filters the dogs by name.
+minimumAge: Filters the dogs by minimum age.
+
+GET /api/v1.0/dogs/{id}
+Returns a dog with the specified ID.
+
+Parameters:
+
+id: The ID of the dog to retrieve.
+
+POST /api/v1.0/dogs
+Creates a new dog in the database.
+
+PUT /api/v1.0/dogs/{id}
+Updates a dog with the specified ID.
+
+Parameters:
+
+id: The ID of the dog to update.
+
+DELETE /api/v1.0/dogs/{id}
+Deletes a dog with the specified ID.
+
+Parameters:
+
+id: The ID of the dog to delete.
 
 ### Setup Instructions...
 
@@ -45,7 +118,7 @@ An API with Versioning that lets .
 
 4. Create a .gitignore file and add "appsettings.json", "bin", and "obj" to the ignored file list.  
 5. Open your shell (e.g., Terminal or GitBash) and add your .gitignore file and commit it before adding any other files. 
-6. Navigate to this project's production directory called "PierreSweets". 
+6. Navigate to this project's production directory called "AnimalShelterApi". 
 3. In the command line, run the command `dotnet run` to compile and execute the console application. Optionally, you can run `dotnet build` to compile this console app without running it. 
 6. Run `dotnet watch run` in the command line to start the project in development mode with a watcher.
 7. Open the browser to _https://localhost:5001_. If you cannot access localhost:5001 it is likely because you have not configured a .NET developer security certificate for HTTPS. To learn about this, review this lesson: [Redirecting to HTTPS and Issuing a Security Certificate](https://www.learnhowtoprogram.com/c-and-net/basic-web-applications/redirecting-to-https-and-issuing-a-security-certificate).
