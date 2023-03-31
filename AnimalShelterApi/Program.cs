@@ -27,7 +27,7 @@ if (app.Environment.IsDevelopment())
 else 
 {
   app.UseHttpsRedirection();
-}
+} //
 
 app.UseAuthorization();
 

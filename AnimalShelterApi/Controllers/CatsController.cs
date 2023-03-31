@@ -35,7 +35,6 @@ namespace AnimalShelterApi.Controllers
       {
         query = query.Where(entry => entry.Age >= minimumAge);
       }
-      //
 
       return await query.ToListAsync();
     }
