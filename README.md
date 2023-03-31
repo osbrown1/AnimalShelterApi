@@ -10,7 +10,6 @@
 * MySQL
 * Entity Framework Core 6
  
-
 ## Description
 An API with Versioning that allows access and search of data for the Cats and Dogs of the Animal Shelter, such as their name, breed, and age.
 
@@ -101,6 +100,7 @@ Parameters:
 
 id: The ID of the dog to delete.
 
+
 ### Setup Instructions...
 
 #### You Will Need: 
@@ -139,7 +139,7 @@ id: The ID of the dog to delete.
 
 ## Known Bugs
 
-Internal server errors display when attempting to enter empty flavor or treat
+None that I noticed so far
 
 ## License
 Enjoy the site! If you have questions or suggestions for fixing the code, please contact me!
