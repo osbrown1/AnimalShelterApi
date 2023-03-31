@@ -15,9 +15,9 @@
 An API with Versioning that allows access and search of data for the Cats and Dogs of the Animal Shelter, such as their name, breed, and age.
 
 ## The Following Endpoints are Used: 
-* CatsController:
+### CatsController:
 
-GET /api/v1.0/cats
+* GET /api/v1.0/cats
 
 Returns a list of all cats in the database.
 
@@ -29,7 +29,7 @@ name: Filters the cats by name.
 
 minimumAge: Filters the cats by minimum age.
 
-GET /api/v1.0/cats/{id}
+* GET /api/v1.0/cats/{id}
 
 Returns a cat with the specified ID.
 
@@ -37,11 +37,11 @@ Parameters:
 
 id: The ID of the cat to retrieve.
 
-POST /api/v1.0/cats
+* POST /api/v1.0/cats
 
 Creates a new cat in the database.
 
-PUT /api/v1.0/cats/{id}
+* PUT /api/v1.0/cats/{id}
 
 Updates a cat with the specified ID.
 
@@ -49,7 +49,7 @@ Parameters:
 
 id: The ID of the cat to update.
 
-DELETE /api/v1.0/cats/{id}
+* DELETE /api/v1.0/cats/{id}
 
 Deletes a cat with the specified ID.
 
@@ -59,9 +59,9 @@ id: The ID of the cat to delete.
 
 //////////////////////////////////
 
-* DogsController:
+### DogsController:
 
-GET /api/v1.0/dogs
+* GET /api/v1.0/dogs
 
 Returns a list of all dogs in the database.
 
@@ -73,7 +73,7 @@ name: Filters the dogs by name.
 
 minimumAge: Filters the dogs by minimum age.
 
-GET /api/v1.0/dogs/{id}
+* GET /api/v1.0/dogs/{id}
 
 Returns a dog with the specified ID.
 
@@ -81,11 +81,11 @@ Parameters:
 
 id: The ID of the dog to retrieve.
 
-POST /api/v1.0/dogs
+* POST /api/v1.0/dogs
 
 Creates a new dog in the database.
 
-PUT /api/v1.0/dogs/{id}
+* PUT /api/v1.0/dogs/{id}
 
 Updates a dog with the specified ID.
 
@@ -93,7 +93,7 @@ Parameters:
 
 id: The ID of the dog to update.
 
-DELETE /api/v1.0/dogs/{id}
+* DELETE /api/v1.0/dogs/{id}
 
 Deletes a dog with the specified ID.
 
