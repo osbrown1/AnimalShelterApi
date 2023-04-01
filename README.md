@@ -13,6 +13,20 @@
 ## Description
 An API with Versioning that allows access and search of data for the Cats and Dogs of the Animal Shelter, such as their name, breed, and age.
 
+## Versioning
+##### I used API versioning in my project. What is API versioning?
+
+* API versioning is a remedy for not breaking things when API's are changed.
+
+##### how is this done?
+
+* This is done by making a new version, hence the name.
+
+##### In other words:
+
+* Versioning is the practice of creating and managing different versions of a software or codebase. It allows developers to keep track of changes made to their code over time, and ensures that they can easily roll back to a previous version if necessary. Versioning is particularly important when working on large-scale projects or collaborating with other developers, as it helps to prevent conflicts and ensure that everyone is working on the same version of the code. There are many different version control systems available, but one of the most popular is Git, which is what I used.
+
+
 ## The Following Endpoints are Used: 
 ### CatsController:
 
